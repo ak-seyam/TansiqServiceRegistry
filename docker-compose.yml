@@ -1,0 +1,9 @@
+version: "3"
+services:
+  service-discovery:
+    build: .
+    ports:
+      - "8761:8761"
+    volumes:
+      - .:/app
+
